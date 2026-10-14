@@ -1,0 +1,6 @@
+url: https://github.com/AirPineApplea/feiyu-memory
+name: AirPineApplea/feiyu-memory
+category: memory
+description:
+  en: "Cross-session persona and diary for DeepSeek Harness: a local gate decides whether a turn is worth remembering, then one extra model call turns it into a first-person diary entry plus a relationship update. Later conversations inject about 700 tokens of that as a self-memory block. Forgetting demotes an entry rather than deleting it, so an old one still surfaces on a strong topical match. Local-only, secrets are stripped before anything is sent, and the archive is a plain folder you can read, edit or carry to another account. Zero runtime dependencies, no build step."
+  zh: "给 DeepSeek Harness 的跨会话人格与日记：本地闸门判断一轮值不值得记，值得才追加一次模型调用，产出一条第一人称日记加一份关系更新；之后的对话把约 700 token 的自我记忆注入系统提示词。遗忘是降级而不是删除，所以强相关的旧事仍然会被想起来。全程本地、发送前先拦掉密钥、档案是一个可读可改、能换账号带走的普通文件夹。零运行时依赖，无构建步骤。"
